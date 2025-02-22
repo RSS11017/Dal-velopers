@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Coffee Website</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-bar">
+    <div class="logo"></div>
+    <div class="brand-name">Central Perk</div>
+  </div>
+  <nav class="nav-bar">
+    <div class="nav-links">
+      <div class="nav-link"><i class="fas fa-mug-hot"></i> Menu</div>
+      <div class="nav-link"><i class="fas fa-chair"></i> Seats</div>
+      <div class="nav-link"><i class="fas fa-heart"></i> Favourites</div>
+    </div>
+    <div class="search-container">
+      <input type="text" class="search-bar" placeholder="Search...">
+      <div class="cart-icon">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count">0</span>
+      </div>
+    </div>
+  </nav>
+  <div class="main-container">
+    <div class="left-sidebar">
+      <div class="circle-option" title="Seats">
+        <i class="fas fa-couch"></i>
+      </div>
+      <div class="circle-option" title="Chatbot">
+        <i class="fas fa-comments"></i>
+      </div>
+      <div class="circle-option" title="Review">
+        <i class="fas fa-star"></i>
+      </div>
+    </div>
+    <div class="menu-sidebar">
+      <div class="menu-option active">
+        <i class="fas fa-glass-martini-alt"></i> Beverages
+      </div>
+      <div class="menu-option">
+        <i class="fas fa-coffee"></i> Coffee
+      </div>
+      <div class="menu-option">
+        <i class="fas fa-utensils"></i> Food
+      </div>
+      <div class="menu-option">
+        <i class="fas fa-pizza-slice"></i> Special Combos
+      </div>
+    </div>
+    <div class="content-area">
+      <iframe id="contentFrame" src="beverages.html" frameborder="0" class="iframe-content"></iframe>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
